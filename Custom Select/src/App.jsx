@@ -2,10 +2,35 @@ import { useState } from 'react'
 import CustomSelect from './Components/CustomSelect'
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  const options=[
+    {
+      name: "Alerts",
+      id: "alert01",
+      value: "alerting",
+      label: "Alerts"
+    },
+    {
+      name: "Alerts",
+      id: "alert01",
+      value: "alerting",
+      label: "Alerts"
+    },
+    {
+      name: "Alerts",
+      id: "alert01",
+      value: "alerting",
+      label: "Alerts"
+    },
+    {
+      name: "Alerts",
+      id: "alert01",
+      value: "alerting",
+      label: "Alerts"
+    },
+  ]
   return (
-   <div> Initial </div>
+   <CustomSelect  options={options}/>
   )
 }
 

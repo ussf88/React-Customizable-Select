@@ -1,0 +1,17 @@
+.option-container{
+    border-bottom :1px solid #ddd;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: #ddd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.option-container:hover{
+    border-bottom :1px solid black;
+    color: black;
+    background-color: #ddd;
+}
