@@ -9,6 +9,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+.option-container *{
+    cursor: pointer;
+} 
 
 .option-container:hover{
     border-bottom :1px solid black;

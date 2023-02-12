@@ -8,29 +8,35 @@ function App() {
       name: "Alerts",
       id: "alert01",
       value: "alerting",
-      label: "Alerts"
+      label: "Alerts",
+      checked :true
     },
     {
       name: "Alerts",
-      id: "alert01",
+      id: "alert02",
       value: "alerting",
-      label: "Alerts"
+      label: "Alerts",
+      checked :true
     },
     {
       name: "Alerts",
-      id: "alert01",
+      id: "alert03",
       value: "alerting",
-      label: "Alerts"
+      label: "Alerts",
+      checked :false
     },
     {
       name: "Alerts",
-      id: "alert01",
+      id: "alert04",
       value: "alerting",
       label: "Alerts"
     },
   ]
+  const OnSelect=(optionsArray)=>{
+    console.log(optionsArray);
+  }
   return (
-   <CustomSelect  options={options}/>
+   <CustomSelect  options={options} OnSelect={OnSelect} />
   )
 }
 
