@@ -6,30 +6,30 @@ function App() {
   const options=[
     {
       name: "Alerts",
-      id: "alert01",
+      id: "alert",
       value: "alerting",
       label: "Alerts",
       checked :true
     },
     {
-      name: "Alerts",
-      id: "alert02",
-      value: "alerting",
-      label: "Alerts",
+      name: "Devices",
+      id: "devices",
+      value: "Devices",
+      label: "Devices",
       checked :true
     },
     {
-      name: "Alerts",
-      id: "alert03",
-      value: "alerting",
-      label: "Alerts",
+      name: "Virus",
+      id: "virus",
+      value: "Virus",
+      label: "Virus",
       checked :false
     },
     {
-      name: "Alerts",
-      id: "alert04",
-      value: "alerting",
-      label: "Alerts"
+      name: "Hardware",
+      id: "hardware",
+      value: "Hardware",
+      label: "Hardware"
     },
   ]
   const OnSelect=(optionsArray)=>{
