@@ -12,7 +12,8 @@ export default function CustomOption({id,name,value,label,IsChecked, OnChecked})
     className='option-container'
     onClick={(e)=>OnCheck(e)}
     >
-        <input 
+        <input
+        className='option-container-input' 
         type="checkbox" 
         checked = {checked}
         onChange ={(e)=>OnCheck(e)}
